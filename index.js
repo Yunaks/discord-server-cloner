@@ -39,7 +39,7 @@ async function guildCreate(token) {
         await axios.post(
             'https://discord.com/api/v9/guilds',
             {
-              'name': 'test',
+              'name': 'Yunak Server Cloner',
               'icon': null,
               'channels': guildchannels,
               "roles" : guildroles,
